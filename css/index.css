@@ -1,0 +1,344 @@
+body{
+  font-family: 'NanumSquare';
+  src: url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+}
+/* 헤더 영역 ------------------------------------------------ */
+header{}
+header .wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+}
+header .wrap .logo{}
+header .wrap .logo a{
+  display: flex;
+  align-items: center;
+}
+header .wrap .logo a video{
+  width: 48px;
+  height: 48px;
+}
+header .wrap .logo a p{
+  margin-left: 15px;
+  background-image: url(../img/sp_pc_v4.png);
+  background-repeat: no-repeat;
+  font-size: 0;
+  width: 156px;
+  height: 48px;
+  background-position: 0px -50px;
+  background-size: 218px 214px;
+}
+header .wrap button{
+  background-position: -158px -50px;
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 46px;
+  background-size: 218px 214px;
+  background-image: url(../img/sp_pc_v4.png);
+  background-color: initial;
+  font-size: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* 타이틀 영역 ------------------------------------------------ */
+#title{}
+#title .wrap{
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+}
+#title .wrap .title{
+  width: 1150px;
+}
+#title .wrap .title li{
+  width: 80px;
+}
+#title .wrap .title li > a{
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+#title .wrap .title li > a figure{
+  
+}
+#title .wrap .title li > a figure img{
+  width: 1150px;
+  height: 680px;
+}
+#title .wrap .title li > a video{
+  object-fit: cover;
+}
+#title .wrap .title li > a h2{
+  font-size: 46px;
+  line-height: 66px;
+  font-weight: 800;
+  margin-top: 42px;
+}
+#title .wrap > a{
+  width: 400px;
+  display: block;
+}
+#title .wrap > a > img{
+  width: 400px;
+  height: 680px;
+  vertical-align: top;
+}
+/* dots 커스텀 ------------------------------------------------ */
+#title .wrap .slick-dots{
+  text-align: left;
+}
+#title .wrap .slick-dots li{
+  width: 80px;
+  height: 8px;
+}
+#title .wrap .slick-dots li:not(:first-child){
+  margin: 0 5px;
+}
+#title .wrap .slick-dots li button{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+#title .wrap .slick-dots li button::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+}
+#title .wrap .title .slick-dots .slick-active button::before{
+  background-color: #000;
+}
+/* main section 1 ------------------------------------------------ */
+main{
+
+}
+main .card{
+
+}
+main .card .wrap{
+  padding-top: 130px;
+}
+main .card .wrap > ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+main .card .wrap > ul > li{
+  box-sizing: border-box;
+  width: 480px;
+}
+main .card .wrap > ul > li > a{
+  width: 480px;
+  display: block;
+  overflow: hidden;
+}
+main .card .wrap > ul > li > a figure{
+  width: 480px;
+  overflow: hidden; /*값을 주고 overflow: hidden을 주면 고정된 이미지 내에서 확대 효과를 낼 수 있다*/
+}
+main .card .wrap > ul > li > a > figure img{
+  width: 480px;
+  height: 480px;
+  vertical-align: top;
+}
+main .card .wrap > ul > li > a > figure img:hover,
+main .card .wrap > ul > li > a > video:hover{
+  transform: scale(1.1);
+  transition: 700ms cubic-bezier(.38,.91,.62,1.16);
+}
+main .card .wrap > ul > li > a > video{
+  
+}
+main .card .wrap > ul > li > a > h2{
+  font-size: 38px;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  font-weight: 800;
+  margin-top: 35px;
+}
+main .card .wrap > ul > li > a > p{
+  margin-top: 15px;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+main .card .wrap > ul > li > a > span{
+  font-size: 18px;
+  color: #aaa;
+}
+main .card .wrap > ul > li .hash{
+  display: flex;
+  margin-top: 20px;
+  column-gap: 10px;
+}
+main .card .wrap > ul > li .hash > a{
+  color: #707070;
+  display: block;
+  padding: 10px 18px;
+  border: 0.5px solid;
+  border-radius: 20px;
+}
+main .card .wrap .btn{
+  margin: 150px 0;
+  text-align: center;
+}
+main .card .wrap .btn button{
+  width: 190px;
+  height: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 1px solid;
+  background: #fff url(../img/more_btn_b.png)no-repeat center/60%;
+  font-size: 0;
+  transition: 0.3s;
+}
+main .card .wrap .btn button:hover{
+  background: #000 url(../img/more_btn.png)no-repeat center/60%;
+}
+/* main section 2 ------------------------------------------------ */
+.keywords{
+  padding-top: 150px;
+  background-color: #fafafa;
+}
+.keywords .wrap{
+
+}
+.keywords .wrap h2{
+  font-size: 58px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.keywords .wrap ul{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 80px;
+  margin-bottom: 100px;
+}
+.keywords .wrap ul > li{
+  width: 100%;
+}
+.keywords .wrap ul > li > a{
+  display: block;
+  width: 100%;
+  background: #ccc;
+  padding-top: 20px;
+}
+.keywords .wrap ul > li:nth-child(1) > a{
+  background-color: #043aa0;
+  color: white;
+}
+.keywords .wrap ul > li:nth-child(2) > a{
+  background-color: #864eef;
+  color: white;
+}
+.keywords .wrap ul > li:nth-child(3) > a{
+  background-color: #9500A5;
+  color: white;
+}
+.keywords .wrap ul > li:nth-child(4) > a{
+  background-color: #656afd;
+  color: white;
+}
+.keywords .wrap ul > li > a > h3{
+  font-size: 34px;
+  font-weight: bold;
+  padding: 30px;
+  box-sizing: border-box;
+  padding-bottom: 15px;
+}
+.keywords .wrap ul > li > a > p{
+  font-size: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  padding-top: 0;
+}
+.keywords .wrap ul > li > a > figure{
+  width: 100%;
+  overflow: hidden;
+}
+.keywords .wrap ul > li > a > figure img{
+  display: block;
+  width: 100%;
+  transition: 1000ms cubic-bezier(.09,.59,.69,1.53);
+}
+.keywords .wrap ul > li > a > figure img:hover{
+  transform: scale(1.2);
+}
+.keywords .wrap .btn{
+  text-align: center;
+  padding-bottom: 100px;
+}
+.keywords .wrap .btn button{
+  width: 190px;
+  height: 60px;
+  border: 1px solid;
+  border-radius: 30px;
+  font-size: 0;
+  background: #fff url(../img/view_btn_b.png)no-repeat center/60%;
+  transition: 0.3s;
+}
+.keywords .wrap .btn button:hover{
+  background: #000 url(../img/view_btn.png)no-repeat center/60%;
+  cursor: pointer;
+}
+/* footer 영역 ------------------------------------------------ */
+footer{
+  height: 240px;
+  box-sizing: border-box;
+  background: #000;
+}
+footer .wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  color: #fff;
+  height: 100%;
+}
+footer .wrap h1{
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 0;
+  background: url(../img/flogo.png)no-repeat left/20%;
+}
+footer .wrap address{
+  grid-column: 1;
+  grid-row: 3;
+  color: #aaa;
+}
+footer .wrap .site{
+  grid-column: 2;
+  grid-row: 2 /span 2;
+  justify-self: right;
+  align-self: center;
+}
+footer .wrap .site button{
+  background-color: #000;
+  border: none;
+  font-size: 24px;
+  color: #aaa;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid;
+  width: 400px;
+  text-align: left;
+}
+footer .wrap .site button::after{
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  transform: translateX(250px) translateY(-5px) rotate(45deg);
+}
+footer .wrap .site > ul{
+
+}
+footer .wrap .site > ul > li{
+
+}
+footer .wrap .site > ul > li > a{
+  
+}
