@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <g data-name="top btn">
+        <path data-name="사각형 1651" style="fill:#efefef" d="M0 0h60v60H0z"/>
+        <g data-name="그룹 1599">
+            <path data-name="선 11" transform="translate(30.001 14.696)" style="fill:none;stroke:#000;stroke-width:2.5px" d="M0 0v32.246"/>
+            <path data-name="패스 1366" d="M0 17.473V0h17.473" transform="rotate(45 -2.74 43.561)" style="stroke-miterlimit:10;fill:none;stroke:#000;stroke-width:2.5px"/>
+        </g>
+    </g>
+</svg>
